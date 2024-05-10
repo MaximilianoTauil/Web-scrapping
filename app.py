@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-data = pd.read_parquet('Web_scrapp.parquet')
+data = pd.read_parquet('Acciones_lideres.parquet')
 data1 = pd.read_parquet('Titulos.parquet')
 data2 = pd.read_parquet('Letras.parquet')
 
